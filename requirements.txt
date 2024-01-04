@@ -1,0 +1,6 @@
+numpy
+torch 
+torchvision
+streamlit
+pillow == 10.2.0
+-e .
