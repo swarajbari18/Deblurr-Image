@@ -1,6 +1,6 @@
 import torch.nn as nn
 import torch.utils.checkpoint as checkpoint
-from components.Swinn_Transformer_Block import SwinTransformerBlock
+from Deblurr_Image.components.Swinn_Transformer_Block import SwinTransformerBlock
 
 
 class BasicLayer(nn.Module):

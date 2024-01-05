@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-from utils import to_2tuple
+from Deblurr_Image.utils import to_2tuple
 
 
 class PatchMerging(nn.Module):

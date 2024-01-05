@@ -1,0 +1,7 @@
+.github
+.vscode
+venv
+.gitignore
+folder_structure.py
+Dockerfile
+.dockerignore

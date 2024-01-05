@@ -1,6 +1,6 @@
 import torch.nn as nn
-from components.Swinn_Transformer_Layer import BasicLayer
-from components.patching import (
+from Deblurr_Image.components.Swinn_Transformer_Layer import BasicLayer
+from Deblurr_Image.components.patching import (
     PatchEmbed,
     PatchUnEmbed
 )

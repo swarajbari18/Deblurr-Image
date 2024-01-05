@@ -1,8 +1,8 @@
 import torch
 import torch.nn as nn
-from components.multi_layer_perceptron import Mlp
-from components.multihead_self_attention import WindowAttention
-from utils import (
+from Deblurr_Image.components.multi_layer_perceptron import Mlp
+from Deblurr_Image.components.multihead_self_attention import WindowAttention
+from Deblurr_Image.utils import (
     DropPath,
     window_partition, 
     window_reverse,

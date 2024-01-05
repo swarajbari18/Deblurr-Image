@@ -2,16 +2,16 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from components.Residual_Swin_Transformer_Block import RSTB
-from components.upsampler import (
+from Deblurr_Image.components.Residual_Swin_Transformer_Block import RSTB
+from Deblurr_Image.components.upsampler import (
     Upsample,
     UpsampleOneStep
 )
-from components.patching import (
+from Deblurr_Image.components.patching import (
     PatchEmbed,
     PatchUnEmbed
 )
-from utils import trunc_normal_
+from Deblurr_Image.utils import trunc_normal_
 
 
 

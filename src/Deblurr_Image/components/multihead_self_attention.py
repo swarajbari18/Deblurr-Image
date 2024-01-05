@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-from utils import trunc_normal_
+from Deblurr_Image.utils import trunc_normal_
 
 
 
