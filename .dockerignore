@@ -1,5 +1,6 @@
 .github
 .vscode
+HuggingFaceDeployment
 venv
 .gitignore
 folder_structure.py
